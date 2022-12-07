@@ -19,7 +19,6 @@ const getDeviceModel = () => {
 const getDeviceStorage = () => {
   const result = DeviceInfo.getTotalDiskCapacity().then(total => {
     const freeDisk = DeviceInfo.getFreeDiskStorage().then(free => {
-      console.log('total sat', ((total - free) / total) * 100);
       const usedCapacity = ((total - free) / total) * 100;
       return `${parseFloat(usedCapacity).toFixed(2)}% used`;
     });
