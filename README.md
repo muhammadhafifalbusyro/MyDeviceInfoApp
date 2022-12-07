@@ -14,7 +14,7 @@ Aplikasi ini dibuat untuk memenuhi tes yang diberikan oleh PT. Teravin Technovat
 ## Langkah Debugging
 
 - Clone repositori
-  `$ https://github.com/muhammadhafifalbusyro/MyDeviceInfoApp.git`
+  `$ git clone https://github.com/muhammadhafifalbusyro/MyDeviceInfoApp.git`
 - Install all package
   `$ npm install`
 - Install pod
