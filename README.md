@@ -18,8 +18,11 @@ Aplikasi ini dibuat untuk memenuhi tes yang diberikan oleh PT. Teravin Technovat
 - Install all package
   `$ npm install`
 - Install pod
-  `$ cd ios`
-  `$ pod install`
+
+```
+$ cd ios && pod install
+```
+
 - Ekstrak folder **hafif-package-device-info**
 - Pindahkan folder **hafif-package-device-info** ke dalam folder **node_modules**
 - Pada file `package.json` tempelkan kode pada baris ini
