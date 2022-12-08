@@ -32,3 +32,5 @@ $ cd ios && pod install
   ```
   $ npx react-native run-ios
   ```
+  ## Link Download Aplikasi
+[MyDeviceInfo App](https://drive.google.com/drive/folders/1SUhod4OXuBVsi78JkhaS2uhqzd8BFc-I?usp=sharing)
